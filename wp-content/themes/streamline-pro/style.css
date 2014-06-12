@@ -177,7 +177,7 @@ textarea:focus,
 }
 
 a {
-	color: #f77b2e;
+	color: #d31145;
 	text-decoration: none;
 }
 
@@ -1320,7 +1320,7 @@ Content Area
 }
 
 .entry-footer .entry-meta a {
-	color: #f77b2e;
+	color: #d31145;
 }
 
 .entry-author,
@@ -1577,7 +1577,7 @@ Sidebars
 }
 
 .sidebar .widget_search {
-	background: #666 url(images/lines-diagonal.png);
+	background: #d31145 url(images/lines-diagonal.png);
 	background-size: 6px 6px;
 }
 
