@@ -163,3 +163,12 @@ genesis_register_sidebar( array(
 	'name'        => __( 'After Entry', 'streamline' ),
 	'description' => __( 'This is the after entry section.', 'streamline' ),
 ) );
+
+//* Customize the entire footer
+remove_action( 'genesis_footer', 'genesis_do_footer' );
+add_action( 'genesis_footer', 'sp_custom_footer' );
+function sp_custom_footer() {
+?>
+<p>&copy; Copyright 2014 <a href="http://regpointsolutions.com/" target="_blank">RegPoint Solutions</a> &middot; All Rights Reserved</p>
+<?php
+}
